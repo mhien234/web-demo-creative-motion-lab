@@ -1,0 +1,24 @@
+test_editor_page_is_served (tests.test_editor.ApiTest.test_editor_page_is_served) ... ok
+test_foreign_host_gets_403 (tests.test_editor.ApiTest.test_foreign_host_gets_403) ... ok
+test_project_roundtrip (tests.test_editor.ApiTest.test_project_roundtrip) ... ok
+test_write_needs_header (tests.test_editor.ApiTest.test_write_needs_header) ... ok
+test_bad_clip (tests.test_editor.CoreTest.test_bad_clip) ... ok
+test_batch_is_one_undo_step (tests.test_editor.CoreTest.test_batch_is_one_undo_step) ... ok
+test_lock_expires_and_user_can_always_edit (tests.test_editor.CoreTest.test_lock_expires_and_user_can_always_edit) ... ok
+test_mute_track (tests.test_editor.CoreTest.test_mute_track) ... ok
+test_split (tests.test_editor.CoreTest.test_split) ... ok
+test_stale_copy_is_refused (tests.test_editor.CoreTest.test_stale_copy_is_refused) ... ok
+test_undo_redo (tests.test_editor.CoreTest.test_undo_redo) ... ok
+D:\ba-vạn-chín-nghìn\creative-motion-lab\tests\test_editor.py:35: ResourceWarning: unclosed file <_io.TextIOWrapper name=3 encoding='utf-8'>
+  media.run_ffmpeg(args)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\ba-vạn-chín-nghìn\creative-motion-lab\tests\test_editor.py:35: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 encoding='utf-8'>
+  media.run_ffmpeg(args)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\ba-vạn-chín-nghìn\creative-motion-lab\tests\test_editor.py:42: ResourceWarning: unclosed file <_io.TextIOWrapper name=3 encoding='utf-8'>
+  media.run_ffmpeg(["-f", "lavfi", "-i", f"aevalsrc={expr}:s=44100:d={seconds}", "-c:a", "pcm_s16le", str(path)])
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\ba-vạn-chín-nghìn\creative-motion-lab\tests\test_editor.py:42: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 encoding='utf-8'>
+  media.run_ffmpeg(["-f", "lavfi", "-i", f"aevalsrc={expr}:s=44100:d={seconds}", "-c:a", "pcm_s16le", str(path)])
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+test_beat_cut_captions_export (tests.test_editor.EndToEndTest.test_beat_cut_captions_export) ... ^C

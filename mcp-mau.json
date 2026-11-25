@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "creative-motion-lab": {
+      "command": "D:\\ba-van-chin-nghin\\creative-motion-lab\\.venv\\Scripts\\python.exe",
+      "args": [
+        "D:\\ba-van-chin-nghin\\creative-motion-lab\\backend\\editor\\mcp_server.py"
+      ],
+      "env": {
+        "CML_URL": "http://127.0.0.1:8000",
+        "CML_AGENT_NAME": "claude-code",
+        "PYTHONUTF8": "1"
+      }
+    }
+  }
+}

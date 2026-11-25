@@ -1,0 +1,14 @@
+.venv/
+data/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+*.pyc
+tools/
+models/
+test-media/
+tests/
+*.bak
+chan-doan.txt
+kiem-tra-ket-qua.txt
+.git/
